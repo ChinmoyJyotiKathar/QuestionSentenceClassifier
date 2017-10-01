@@ -1,0 +1,14 @@
+Hi there!
+
+It's Chinmoy here! Glad to see you have found your way into my repository. :D
+
+I created this classifier as a personal mini project as I couldn't find any solid Question Sentece Classifier online.
+This is still quite raw and is giving 87~90 ish accuracy rate (tested on NLTK chat corpus).
+
+I have also added voiced input, the reason for which has a long story.
+To remove voiced input, just remove lines 124-127 and uncomment 128.
+
+If you find any difficulty in loading the pickled classifier just ping me at:
+https://www.facebook.com/chinmoy.kathar
+
+Also if you need the raw classifer all you have to do is ping me. 
