@@ -30,8 +30,6 @@ classifier_f.close()
 
 #Question/Sentence Classifier function //argument =  text
 def QuestionSentClassify(mysentence):
-    #from here copy and paste into your program:
-    #mysentence = "Chinmoy how are we doing today?"
     mysentfeatures = [0,0,0,0,0,0,0,0]
     text = nltk.word_tokenize(mysentence)
     sent = (list(nltk.pos_tag(text)))
